@@ -1,25 +1,25 @@
 Feature: Login into the application
 
-  @login
+  @suite1
   Scenario: Successful login
     Given Pepito has an active account
     When he sends their valid credentials
     Then he should have access to manage his account
 
-  @dev
+  @suite2
   Scenario: Successful login 2
     Given Pepito has an active account
     When he sends their valid credentials
     Then he should have access t  o manage his account
 
-  @dev
+  @suite3
   Scenario: Successful login 3
     Given Pepito has an active account
     When he sends their valid credentials
     Then he should have access to manage his account
 
 
-  @dev
+  @suite4
   Scenario: Successful login 4
     Given Pepito has an active account
     When he sends their valid credentials
